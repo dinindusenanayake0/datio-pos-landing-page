@@ -6,10 +6,10 @@ Design Steps Section
 function Steps() {
   return (
     <div className="w-[100%] sm:px-8 ">
-      <div className="bg-[#F3F3F3]">
+      <div className="bg-[#F3F3F3] sm:">
         <div className="flex flex-col justify-between max-w-screen-lg px-4 mx-auto sm:px-6 lg:px-8 px-auto">
           <div className="h-[20vh]  text-center">
-            <h1 className="text-[#236767]   font-geist-semibold text-[43px] mt-20">
+            <h1 className="text-[#236767]   font-geist-semibold text-[43px] sm:text-[38px] mt-20">
               GET STARTED IN SIMPLE 4 STEPS
             </h1>
           </div>
@@ -17,7 +17,7 @@ function Steps() {
           <div className="mt-20 sm:pt-10">
             <ul className="">
               <li className="mb-10 text-left">
-                <div className="flex flex-row items-start">
+                <div className="flex flex-row items-start sm:flex-col sm:pt-10">
                   <div className="flex flex-col items-center justify-center mr-5">
                     <div className="flex items-center font-geist-regular justify-center w-20 h-20 text-xl font-semibold text-white bg-[#339999] border-4 border-white rounded-full">
                       1
@@ -52,7 +52,7 @@ function Steps() {
                 </div>
               </li>
               <li className="mb-10 text-left">
-                <div className="flex flex-row items-start">
+                <div className="flex flex-row items-start sm:flex-col">
                   <div className="flex flex-col items-center justify-center mr-5">
                     <div className="flex items-center font-geist-regular justify-center w-20 h-20 text-xl font-semibold text-white bg-[#339999] border-4 border-white rounded-full">
                       2
@@ -75,7 +75,7 @@ function Steps() {
                 </div>
               </li>
               <li className="mb-10 text-left">
-                <div className="flex flex-row items-start">
+                <div className="flex flex-row items-start sm:flex-col">
                   <div className="flex flex-col items-center justify-center mr-5">
                     <div className="flex items-center font-geist-regular justify-center w-20 h-20 text-xl font-semibold text-white bg-[#339999] border-4 border-white rounded-full">
                       3
@@ -93,7 +93,7 @@ function Steps() {
                 </div>
               </li>
               <li className="mb-10 text-left">
-                <div className="flex flex-row items-start">
+                <div className="flex flex-row items-start sm:flex-col">
                   <div className="flex flex-col items-center justify-center mr-5">
                     <div className="flex items-center justify-center font-geist-regular w-20 h-20 text-xl font-semibold text-white bg-[#339999] border-4 border-white rounded-full">
                       4
